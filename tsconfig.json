@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "esnext",
+        "strict": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "useDefineForClassFields": true,
+        "declaration": true,
+        "declarationMap": true,
+        "declarationDir": "types",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "types": [
+        ],
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        },
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable",
+            "scripthost"
+        ]
+    }
+}
