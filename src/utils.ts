@@ -26,7 +26,7 @@ export const mapObject = (keys: (string | Object)[], obj: TMapObjectObj, returnF
 }
 
 /**
- * 对象同步（从A对象同步到B对象，仅保留A中存在的key，且如果在B中存在对应数据，也保留该数据）
+ * 对象同步（从A对象同步到B对象，仅保留A中存在的key，且如果在B中存在对应数据，也保留在B中的该数据）
  * @example
  *  fromObj: {name: "jack", age: 3}
  *  toObj: {name: "rose"}
